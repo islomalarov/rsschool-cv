@@ -23,4 +23,11 @@ function multiply(a, b) {
 }
 ```
 
+### Courses:
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+
+### Languages:
+* English - Beginner
+* Russian - Native
+
 
