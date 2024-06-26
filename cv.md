@@ -1,29 +1,28 @@
-
 # Islom Alarov
 
 **Email:** <islomlarov@gmail.com>  
-**Телефон:** +998903719219  
-**Адрес:** Ташкент
+**Phone:** +998903719219  
+**Address:** Tashkent
 
 ---
 
-## Краткая информация о себе
+## Brief Overview
 
-Цель – изучить программирование с приоритетом на технологии Angular. Обладаю хорошей памятью и стремлением к постоянному обучению и познанию нового. Сильные стороны включают в себя способность быстро осваивать новые навыки и технологии, а также аналитический подход к решению задач.
-
----
-
-## Навыки
-
-- Языки программирования: JavaScript, HTML, CSS
-- Фреймворки: Angular, React, Redux Toolkit
-- Методологии: БЭМ
-- Системы контроля версий: Git
-- Инструменты разработки: VS Code
+Goal – to learn programming with a focus on Angular technologies. I have a good memory and a desire for continuous learning and exploring new things. My strengths include the ability to quickly acquire new skills and technologies, as well as an analytical approach to problem-solving.
 
 ---
 
-## Примеры кода
+## Skills
+
+- Programming Languages: JavaScript, HTML, CSS
+- Frameworks: Angular, React, Redux Toolkit
+- Methodologies: BEM
+- Version Control Systems: Git
+- Development Tools: VS Code
+
+---
+
+## Code Examples
 
 ```javascript
 async function fetchData(url) {
@@ -39,30 +38,26 @@ async function fetchData(url) {
 
 ---
 
-## Опыт работы
+## Work Experience
 
-### Главный специалист диспетчерской службы
+### Senior Dispatch Specialist
 
 **Yashil Energiya MCHJ**  
-_Период работы:_ с 26.08.2023 по настоящее время  
-_Обязанности и достижения:_ организация и управление процессами диспетчерской службы.
+_Period:_ from 26.08.2023 to present  
+_Responsibilities and Achievements:_ organization and management of dispatch service processes.
 
----
+## Education
 
-## Образование
+**Tashkent State Technical University**  
+_Specialization:_ Radio-electronic devices and systems  
+_Years:_ 2011-2015  
+_Achievement:_ Winner of the theoretical foundations of electrical engineering Olympiad.
 
-**Ташкентский Государственный Технический Университет**  
-_Специальность:_ Радиоэлектронные устройства и системы  
-_Годы обучения:_ 2011-2015  
-Выигрыш в олимпиаде по теоретическим основам электротехники.
+## Courses and Training
 
-### Пройденные курсы и тренинги
+- **Front-End Development with JavaScript**, Tashkent IT Step Academy, from 17.05.2022 to 17.05.2023
 
-- **Front-End разработка на JavaScript**, [Tashkent IT Step Academy](https://tashkent.itstep.org/), с 17.05.2022 по 17.05.2023
+## Languages
 
----
-
-## Языки
-
-- Английский: Начальный уровень
-- Русский: Промежуточный уровень
+- English: Beginner level
+- Russian: Intermediate level
