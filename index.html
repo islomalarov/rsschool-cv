@@ -1,12 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <h1>Islom Alarov</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="icon" href="./assets/favicons/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <title>Islom Alarov's CV</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <button class="burger" aria-label="Toggle menu">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__list-item"><a href="#code" class="nav__link">Code</a></li>
+          <li class="nav__list-item"><a href="#courses" class="nav__link">Courses</a></li>
+          <li class="nav__list-item"><a href="#experience" class="nav__link">Experience</a></li>
+          <li class="nav__list-item"><a href="#projects" class="nav__link">Projects</a></li>
+          <li class="nav__list-item"><a href="#languages" class="nav__link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main__container">
+      <div class="ava bottom__line">
+        <img class="ava__img" src="./assets/img/ava.jpg" alt="avatar">
+      </div>
+      <section class="profile__section bottom__line" id="profile">
+        <h1 class="profile__title">Islom Alarov</h1>
+        <h2 class="profile__subtitle subtitle">Frontend developer</h2>
+        <div class="profile__address">
+          <img src="./assets/svg/Location.svg" alt="Location">
+          <p class="descr">Tashkent. Uzbekistan.</p>
+        </div>
+      </section>
+      <section class="contacts__section bottom__line" id="contacts">
+        <h2 class="contacts__title subtitle">Contact</h2>
+        <ul class="contacts__list">
+          <li class="contacts__list-item">
+            <img src="./assets/svg/Phone.svg" alt="Phone">
+            <p class="descr">+998 90 371 92 19</p>
+          </li>
+          <li class="contacts__list-item">
+            <img src="./assets/svg/Mail.svg" alt="Mail">
+            <a class="descr" href="mailto:islomalarov@gmail.com">islomalarov@gmail.com</a>
+          </li>
+          <li class="contacts__list-item"></li>
+        </ul>
+      </section>
+      <section class="summary__section bottom__line" id="summary">
+        <h2 class="summary__title subtitle">About Me</h2>
+        <p class="descr">
+          Goal – to learn programming with a focus on Angular technologies. I have a good memory
+          and a desire for continuous learning and exploring new things. My strengths include the
+          ability to quickly acquire new skills and technologies, as well as an analytical
+          approach to problem-solving.
+        </p>
+      </section>
+      <section class="skills__section bottom__line" id="skills">
+        <h2 class="skills__title subtitle">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item descr">Programming Languages: JavaScript, HTML, CSS</li>
+          <li class="skills__list-item descr">Frameworks: Angular, React, Redux Toolkit</li>
+          <li class="skills__list-item descr">Methodologies: BEM</li>
+          <li class="skills__list-item descr">Version Control Systems: Git</li>
+          <li class="skills__list-item descr">Development Tools: VS Code</li>
+        </ul>
+      </section>
+      <section class="code__section bottom__line" id="code">
+        <h2 class="code__title subtitle">Code</h2>
+        <pre>
+            <code data-language="javascript">
+  async function fetchData(url) {
+    try {
+    const response = await fetch(url);
+    const data = await response.json();
+    return data;
+    } catch (e) {
+    return e;
+    }
+  }         
+            </code>
+          </pre>
+      </section>
+      <section class="course__section bottom__line" id="courses">
+        <h2 class="course__title subtitle">Courses</h2>
+        <div class="coure__info">
+          <h3>Front-End Development with JavaScript</h3>
+          <p class="descr">05.2022 - 05.2023</p>
+          <a class="descr" href="https://fsx1.itstep.org/api/v1/files/cCiCwBxp1Ac9kJxYgh4FRBk2b3cCRrs1?inline">Tashkent
+            IT Step Academy (Diploma)</a>
+        </div>
+      </section>
+      <section class="experience__section bottom__line" id="experience">
+        <h2 class="experience__title subtitle">Experience</h2>
+        <div class="coure__info">
+          <h3>Senior Dispatch Specialist</h3>
+          <p class="descr">26.08.2023 to present</p>
+          <p class="descr"><b>Yashil Energiya MCHJ</b></p>
+          <p class="descr"><i>Responsibilities and Achievements:</i> organization and management of dispatch service
+            processes.
+          </p>
+        </div>
+      </section>
+      <section class="languages__section bottom__line" id="languages">
+        <h2 class="languages__title subtitle">Languages</h2>
+        <ul class="languages__list">
+          <li class="languages__list-item">
+            <span>English</span>
+            <div class="progress">
+              <div class="progress__bar" style="width: 20%;">20%</div>
+            </div>
+          </li>
+          <li class="languages__list-item">
+            <span>Russian</span>
+            <div class="progress">
+              <div class="progress__bar" style="width: 50%;">50%</div>
+            </div>
+          </li>
+          <li class="languages__list-item">
+            <span>Uzbek</span>
+            <div class="progress">
+              <div class="progress__bar" style="width: 100%;">100%</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="projects__section bottom__line" id="projects">
+        <h2 class="projects__title subtitle">Projects</h2>
+        <ul class="projects__list">
+          <li class="projects__list-item">
+            <a class="descr" href="https://yashil-energiya.vercel.app/">yashil-energiya</a>
+          </li>
+          <li class="projects__list-item"><a class="descr"
+              href="https://islomalarov.github.io/react-pizza/">react-pizza</a>
+          </li>
+          <li class="projects__list-item"><a class="descr" href="https://islomalarov.github.io/hnst/">hnst</a></li>
+          <li class="projects__list-item"><a class="descr"
+              href="https://islomalarov.github.io/My-weather//">my-weather</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__info">
+        <span class="footer__descr">&COPY; 2024</span>
+        <a class="footer__descr" href="https://github.com/islomalarov">islomalarov</a>
+      </div>
+      <div>
+        <a href="https://rs.school/courses/javascript-ru">
+          <img class="footer__logo" src="./assets/svg/rs_school_js.svg" alt="rs school">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/main.js"></script>
+</body>
+
 </html>
