@@ -1,1 +1,1 @@
-[По этой ссылке должна открываться страница CV, задеплоенная на GitHub Pages](https://islomalarov.github.io/rsschool-cv/cv)
+[По этой ссылке будет открываться страницы CV в виде свёрстанной страницы](https://GITHUB-USERNAME.github.io/rsschool-cv/)
